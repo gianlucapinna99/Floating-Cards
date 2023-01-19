@@ -1,6 +1,11 @@
 /* *************
 Default typo
 **************/
+
+*{
+    padding: 0;
+    margin: 0;
+}
 h1{
     font-size: 60px;
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
@@ -9,16 +14,27 @@ h1{
 body{
  margin: auto 260px;   
 }
+
 /* Header */
 
 .title{
     text-align: center;
     color: #e53170;
 }
+/* /Header */
 
 
+/* Main */
 p{
     text-align: center;
     margin: 65px auto ;
     font-size: 30px;
 }
+
+.container::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+/* /Main */
