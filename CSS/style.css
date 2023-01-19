@@ -8,7 +8,8 @@ Default typo
 }
 h1{
     font-size: 60px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 45px; 
 }
 
 h2, h3 {
@@ -61,7 +62,6 @@ p{
     height: 100px;
     width: 355px;
     float: left;
-    margin: 55px 32px 55px 55px; 
 }
 
 div img{
