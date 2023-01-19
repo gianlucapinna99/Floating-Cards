@@ -11,6 +11,24 @@ h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
 }
 
+h2, h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+}
+
+h2{
+    font-size: 15px;
+}
+
+h3{
+    font-size: 13px;
+}
+
+a{
+    font-size: 13px;
+    color: #4dccf2;
+}
 body{
  margin: auto 260px;   
 }
@@ -37,9 +55,19 @@ p{
     display: table;
 }
 
-div div{
+.box{
     background-color: #0f0e17;
-    float: left;
     box-shadow: #0f0e17;
+    height: 100px;
+    width: 355px;
+    float: left;
+    margin: 55px 32px 55px 55px; 
 }
+
+div img{
+    float: left;
+    height: 100%;
+    margin: 55px 32px 55px 55px; 
+}
+
 /* /Main */
