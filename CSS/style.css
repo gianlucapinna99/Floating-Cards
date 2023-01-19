@@ -51,22 +51,24 @@ p{
     font-size: 30px;
 }
 
-.container{
-    width: auto 0;
+.container::after{
+    clear: both;
+    display: table;
+    content: "";
 }
 
 .box{
     background-color: #0f0e17;
     box-shadow: #0f0e17;
     height: 100px;
-    width: 355px;
+    width: calc((100%/3) - 60px);
     float: left;
-
+    margin-bottom: 30px;
 }
 
-div div{
-    width: 100%/3;
-    margin: 30px 30px 30px 30px;
+
+.boxc{
+    margin: 0px 30px 0px 30px;
 }
 
 div img{
