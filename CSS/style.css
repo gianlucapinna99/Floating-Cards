@@ -1,0 +1,24 @@
+/* *************
+Default typo
+**************/
+h1{
+    font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+body{
+ margin: auto 260px;   
+}
+/* Header */
+
+.title{
+    text-align: center;
+    color: #e53170;
+}
+
+
+p{
+    text-align: center;
+    margin: 65px auto ;
+    font-size: 30px;
+}
