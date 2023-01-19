@@ -37,4 +37,9 @@ p{
     display: table;
 }
 
+div div{
+    background-color: #0f0e17;
+    float: left;
+    box-shadow: #0f0e17;
+}
 /* /Main */
