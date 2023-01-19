@@ -59,9 +59,9 @@ p{
 
 .box{
     background-color: #0f0e17;
-    box-shadow: #0f0e17;
+    box-shadow: 3px 3px 3px #0f0e17;
     height: 100px;
-    width: calc((100%/3) - 60px);
+    width: calc((100%/3) - 20px);
     float: left;
     margin-bottom: 30px;
 }
