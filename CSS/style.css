@@ -57,6 +57,10 @@ p{
     content: "";
 }
 
+main{
+    min-width: 1030px;
+}
+
 .box{
     background-color: #0f0e17;
     box-shadow: 3px 3px 3px #0f0e17;
