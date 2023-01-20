@@ -19,15 +19,15 @@ h2, h3 {
 }
 
 h2{
-    font-size: 15px;
+    font-size: 27px;
 }
 
 h3{
-    font-size: 13px;
+    font-size: 15px;
 }
 
 a{
-    font-size: 13px;
+    font-size: 15px;
     color: #4dccf2;
     text-decoration-line: none;
 }
@@ -82,6 +82,7 @@ div img{
     margin-left: 18px;
     float: left;
     margin-top: 12px;
+    line-height: 50px;
 }
 
 .nospace{
