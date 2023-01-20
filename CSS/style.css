@@ -64,7 +64,6 @@ main{
 .box{
     background-color: #0f0e17;
     box-shadow: 3px 3px 3px #0f0e17;
-    height: 100px;
     width: calc((100%/3) - 20px);
     float: left;
     margin-bottom: 30px;
@@ -76,14 +75,17 @@ main{
 }
 
 div img{
-    float: left;
-    height: 100%; 
+    float: left; 
 }
 
 .content {
     margin-left: 18px;
     float: left;
     margin-top: 12px;
+}
+
+.nospace{
+    display: block;
 }
 
 /* /Main */
